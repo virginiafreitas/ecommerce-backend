@@ -22,13 +22,13 @@
   [Click here](https://drive.google.com/file/d/1SziOteutDfpBEBJGke5inlRudJNPsTX-/view) to watch a demo on how to use the application. 
   - Open Insomnia
   - Select "GET", then type and send "localhost:3001/api/categories" to see all the categories, "localhost:3001/api/products" to see all the products, and "localhost:3001/api/tags" to see all the tags. 
-  ![screenshot](./assets/categories_get.png)
+  ![screenshot](./Assets/categories_get.png)
   - Type and send "localhost:3001/api/categories/i" to see a specific category with id [i], "localhost:3001/api/products/i" to see a specific product with id [i], and "localhost:3001/api/tags/i" to see a specific tag with id [i].
-  ![screenshot](./assets/specific_category_get.png)
+  ![screenshot](./Assets/specific_category_get.png)
   - Select "POST", then type the "localhost:3001/api/categories" route and {"category_name": "XX"} as content, XX being a place holder for the name of a new category you'd like to add, and send it.
-  ![screenshot](./assets/category_post.png)
+  ![screenshot](./Assets/category_post.png)
   - Select "PUT", then type the "localhost:3001/api/categories/i" route and {"category_name": "YY"} as content, YY being a place holder for the name of a new category name that you'd like to replace the category with id [i] for, and send it.
-  ![screenshot](./assets/category_put.png)
+  ![screenshot](./Assets/category_put.png)
   - Select "DELETE", then type the "localhost:3001/api/categories/i" route to delete a category with id [i].
   ![screenshot](./assets/category_delete.png)
 
