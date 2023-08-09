@@ -30,7 +30,6 @@
   - Select "PUT", then type the "localhost:3001/api/categories/i" route and {"category_name": "YY"} as content, YY being a place holder for the name of a new category name that you'd like to replace the category with id [i] for, and send it.
   ![screenshot](./Assets/category_put.png)
   - Select "DELETE", then type the "localhost:3001/api/categories/i" route to delete a category with id [i].
-  ![screenshot](./Assets/category_delete.png)
 
   ### Contributing
   I have received advice from the UC Berkeley Extension tutor Matthew Calimbas on debugging and testing my code. I also reached out to the [Mozilla Developer](https://developer.mozilla.org/en-US/) webpage and [NPM Docs](https://docs.npmjs.com/) for documentation.
